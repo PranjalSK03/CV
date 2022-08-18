@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>❤️Pranjal's website</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+ <!--here above it is called the internal css used in the html itself but it is still cumbersome as the other pages are not affected with this yet-->
+
+<!-- html page is nothing but made of boxes so height attribute can be used in every where except body tag {HTML prevent it to happen} -->
+<!--body style="background-color: powderblue;"--> <!--This is the inline css whenever we use style attribute in tag itself. not recommended to use because it is cumbersome-->
+<body>
+  <table cellspacing="20">
+    <tbody>
+      <tr>
+        <td>
+          <img src="D:\WEB DEV\HTML- Personal Site\images\my_img-modified.png" alt="My profile pic">
+        </td>
+        <!-- one may add the intenet image link too but it will work only till the server is online as browser searches for the link over the internet to download it and display-->
+        <td>
+          <h1>Pranjal Singh Katiyar</h1>
+          <p><em>Student at <strong><a href="http://www.tezu.ernet.in" title="TU website">TEZPUR UNIVERSITY</a></strong></em>
+            <br>
+            <em>Department of <a href="http://www.tezu.ernet.in/dcompsc/" title="CSE dept. TU">Computer Science and Engineering</a></em>
+            <br>
+            <em>at School of Engineering</em>
+          </p>
+          <p>
+            I am a Computer Science enthusiast, currently in <strong>3rd year of B.Tech</strong> my roll no. is <a href="http://www.tezu.ernet.in/dcompsc/people/student/btech_student.html" title="check my roll no.">CSB20046</a>
+            focusing on subjects like DSA, Web Development. I am also a GATE aspirant.
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+  <h3>Education</h3>
+  <ul>
+    <li>JEE Mains qualifier with a <strong>Rank</strong> of 46k, <strong>Percentile</strong> (95.6) - 2020</li>
+    <li>passed HS as a School Topper with 95.6% from <strong>Sarla Birla Public School</strong><em>(CBSE affilated) - 2020.</em> </li>
+    <li>passed Matrix eith 92.4% from <strong>Sarla Birla Public School</strong><em>(CBSE affilated) - 2018.</em></li>
+  </ul>
+  <hr size="2">
+  <h3>College years</h3>
+  <!--the atributes of the html table not used as sytling done with CSS-->
+  <table border='1' cellspacing="10" >
+    <!-- to create table in html-->
+    <!--the "border" allows to see border of table and also decide thickness in pixels -->
+    <!--"bgcolor" is other attribute and another is "cellspacing" decides the cell space -->
+    <!--"colspan" merges the no. consecutive cells columnwise "rowspan" mreges the no. of consecutive cells rowise-->
+    <!--"style:background-color", "style:">
+    <thead>
+      <!-- to create the header the bold thing -->
+    <th>Year</th>
+    <th>Deed</th>
+    </th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2022</td>
+        <td>doing DSA and Web Dev</td>
+      </tr>
+      <tr>
+        <td>2021 - 2022</td>
+        <td>did some DSA</td>
+      </tr>
+      <tr>
+        <td>2020 - 2021</td>
+        <td>did only college stuff</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <!-- nothing to do here much in tables required totals and some extra detail footer are used-->
+    </tfoot>
+  </table>
+  <hr size="2">
+  <h3>Skills</h3>
+  <table > <!--table nesting to create parallel effect-->
+    <tbody>
+      <tr>
+        <td>
+          <table cellspacing="10">
+            <tr>
+              <td>HTML</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>⭐</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table cellspacing="10">
+            <tr>
+              <td>DSA</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>⭐</td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td>⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <br>
+  <a href="hobbies.html">My Hobbies</a>
+  <br><br>
+  <hr>
+  <center><h2>Wanna Contact me?</h2></center>
+  <center><a href="contact.html"><img src="images/call-modified.png" height=50 width=50></a></center>
+
+</body>
+
+</html>

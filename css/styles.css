@@ -1,0 +1,33 @@
+
+/*here the commment happem like this and moreover this is called external css{cascading style sheets}*/
+/*inline css is more prior then is the external and last is the external for same tag and property*/
+/*the css external is ethical for web developer*/
+
+/*
+ETHICS:-
+
+selector{property:value;}
+  who      what    how
+
+best practice to arrange css properties in aphabetical order
+*/
+
+body{
+  background-color: powderblue;
+}
+
+hr{
+
+  background-color: powderblue;
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 5px;
+  height: 0;
+  width: 5%;
+}
+h3{
+  color: #256D85;
+}
+h1{
+  color: #002B5B;
+}
